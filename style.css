@@ -73,7 +73,8 @@ nav ul li a:hover::after{
 .header-text {
     margin-top: 80px;
     text-align: center;
-    background: url('Assets/HOME.JPG') no-repeat center center/cover;
+    background: url('Assets/HOME.JPG') no-repeat center center;
+    background-size: cover;
 }
 
 .header-text h1 {
