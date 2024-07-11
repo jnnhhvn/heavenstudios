@@ -231,6 +231,10 @@ nav ul li a:hover::after{
 
 
 /*Works*/
+#works {
+    background: #000;
+}
+
 #works .work-sub-title {
     font-size: 60px;
     margin-bottom: 20px;
