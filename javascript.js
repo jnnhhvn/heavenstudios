@@ -35,7 +35,7 @@ function closemenu() {
 
 //Services Button
 document.getElementById("availButton").addEventListener("click", function() {
-    alert("You can check more pictures in the Works section. If you want to our avail services or inquire, please contact us through our contact form below. Looking forward to work with you!");
+    alert("You can check more pictures in the Works section. If you want to avail our services or inquire, please contact us through our contact form below. Looking forward to work with you!");
 });
 
 //Contact Form
