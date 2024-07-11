@@ -328,6 +328,7 @@ nav ul li a:hover::after{
 /*Contact*/
 #contact{
     padding: 20px;
+    background: #000;
 }
 
 .contact-left{
