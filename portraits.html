@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HS Portraits</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/98b71afef6.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        .main {
+            position: absolute;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+            width: 100vw;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            column-gap: 5px;
+            row-gap: 5px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .header{
+            text-align: center;
+            margin-top: 80px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a href="#header"><img src="Assets/LOGO.png" class="logo" alt="Heaven Studios Logo"></a>
+                <ul id="sidemenu">
+                    <li><a href="index.html#header">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#works">Works</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                    <li><a href="login.html">Log In</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+    </div>
+    <div class="header">
+        <h1>Portraits</h1><br>
+    </div>
+    <div class="main">
+        <img src="Assets/PORTRAIT_1.JPG">
+        <img src="Assets/PORTRAIT_2.JPG">
+        <img src="Assets/PORTRAIT_3.JPG">
+        <img src="Assets/PORTRAIT_4.JPG">
+        <img src="Assets/PORTRAIT_5.JPG">
+        <img src="Assets/PORTRAIT_6.JPG">
+        <img src="Assets/PORTRAIT_7.JPG">
+        <img src="Assets/PORTRAIT_8.JPG">
+        <img src="Assets/PORTRAIT_9.JPG">
+        <img src="Assets/PORTRAIT_10.JPG">
+        <img src="Assets/PORTRAIT_11.JPG">
+        <img src="Assets/PORTRAIT_12.JPG">
+        <img src="Assets/PORTRAIT_13.JPG">
+        <img src="Assets/PORTRAIT_14.JPG">
+        <img src="Assets/PORTRAIT_15.JPG">
+        <img src="Assets/PORTRAIT_16.JPG">
+        <img src="Assets/PORTRAIT_17.JPG">
+        <img src="Assets/PORTRAIT_18.JPG">             
+    </div>
+    <script src="/javascript.js"></script>
+</body>
+</html>
