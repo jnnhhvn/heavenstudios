@@ -210,7 +210,7 @@ nav ul li a:hover::after{
 
 .about-col-2 p {
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 1.4;
 }
 
 @media (max-width: 768px) {
